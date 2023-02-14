@@ -13,6 +13,7 @@ function generateBrains(N)
     const brains = [];
     for (let i = 0; i <= N; i++)
     {
-        brains.push(new brain)
+        brains.push(new brain())
     }
+    return brains;
 }
