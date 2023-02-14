@@ -49,10 +49,6 @@ class NeuralNetwork
             }
         });
     }
-
-
-
-
 }
 class level
 {
