@@ -11,8 +11,7 @@ class brain
         const offsets = this.sensor.readings.map(
             s=>s==null?0:1-s.offset
         )
-
-        this.sensor.update(roadBorders,traffic);
+                // offsets is the values of each value
         const outputs = NeuralNetwork.feedForward(offsets,this.brain);
             
             this.rock = outputs[0];
