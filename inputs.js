@@ -60,6 +60,6 @@ class inputs{
 
     store()
     {
-
+        // idk yet
     }
 }
