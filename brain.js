@@ -7,4 +7,3 @@ class brain
         )
     }
 }
-hello world
