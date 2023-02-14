@@ -4,7 +4,7 @@ const V = 0.01;
 
 const brains = generateBrains(N);
 // load the previous brains to array
-
+const input = new inputs
 
 
 
